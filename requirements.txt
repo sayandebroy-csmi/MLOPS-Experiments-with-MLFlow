@@ -1,0 +1,5 @@
+mlflow==3.8.1
+scikit-learn==1.7.2
+matplotlib==3.10.8
+seaborn==0.13.2
+dagshub==0.6.4

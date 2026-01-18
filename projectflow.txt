@@ -1,0 +1,14 @@
+mlflow ui
+
+https://dagshub.com/sayandebroy-csmi/MLOPS-Experiments-with-MLFlow.mlflow
+
+
+
+
+import dagshub
+dagshub.init(repo_owner='sayandebroy-csmi', repo_name='MLOPS-Experiments-with-MLFlow', mlflow=True)
+
+import mlflow
+with mlflow.start_run():
+  mlflow.log_param('parameter name', 'value')
+  mlflow.log_metric('metric name', 1)
